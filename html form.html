@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    
+        <form action="https://formspree.io/f/xgeqvqjb" method="post">
+
+    
+    <div>
+        <label for="fullname"> fullname: </label>
+        <input type="text" name="fullname" id="fullname" required>
+    </div> <br>
+
+    <div>
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email">
+    </div><br>
+    <div>
+        <label for="password"> Password: </label>
+        <input type="password" name="password" id="password">
+    </div><br>
+    <div>
+        <label for="dob"> Date of Birth: </label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+    <div>
+        <label for="photo"> Choose Your photo: </label>
+        <input type="file" name="photo" id="photo">
+    </div><br>
+    <div>
+        <label for="gender"> Gender: </label>
+        <input type="radio" name="gender" id="gender" value ="male">Male
+        <input type="radio" name="gender" id="gender" value ="female">Female
+    </div><br>
+    <div>
+        <label for=" religion"> Religion:</label>
+        <input type="checkbox" name="c1" id="muslim" value="Islam"> Islam
+        <input type="checkbox" name="c1" id="hindu" value="hindu"> Hindu
+    </div><br>
+    <div>
+        <label for="department"> Department:</label>
+        <select name="department">
+            <option value="cse">CSE</option>
+           <option value="cse">EEE</option>
+           <option value="cse">BBA</option>
+           <option value="cse">LLB</option>
+           <option value="cse">ENGLISH</option>
+           <option value="cse">BBT</option>
+
+        </select>
+        
+    </div><br>
+    <div>
+
+        <label for="message"> Discription :</label><br>
+        <textarea name="message" id="massage" cols="30" rows="10"></textarea>
+       
+    </div>
+    <div>
+       <input type="submit" value="Register">
+       <input type="reset" value="Clear">
+    </div>
+
+</form>
+
+    
+</body>
+</html>
